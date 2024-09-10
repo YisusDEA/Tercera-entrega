@@ -1,0 +1,201 @@
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.guantelete {
+    z-index: 1;
+}
+
+.fondito{
+    position: absolute;
+    z-index: 0;
+    margin-top: 120px;
+    width: 756px;
+    height: 350px;
+    
+}
+
+.header-title {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    background-color: #000218;
+    position: relative;
+    width: 1440px;
+    height: 777px;
+}
+
+.header {
+    margin-left: 7vw;
+    margin-top: 3vw;
+}
+
+.title span {
+    margin-bottom: 3%;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.title {
+    margin-top: 4%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 7vw;
+}
+
+.buttons {
+    display: inline-block;
+}
+
+
+.title button {
+    
+    width: 119px;
+    height: 52px;
+    
+    border-radius: 5px;
+}
+
+.shop {
+    color: white;
+    background-color: #E74040;
+    border-style: none;
+}
+
+.cart {
+    color: #E74040;
+    background-color: #000218;
+    border: 1px solid #E74040;
+}
+
+.title span {
+    font-weight: 100;
+}
+.title h1 {
+    font-size: 58px;
+    max-width: 40%;
+}
+
+
+.title img {
+    right: 20px;
+    position: absolute;
+    scale: 70%;
+    top: 4vw;
+}
+
+.cards-title h1 {
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 100px;
+    font-weight: 700;
+    font-size: 40px;
+    
+}
+
+
+.cards-section{
+    position: relative;
+    background-color: #CDCDD233;
+    width: 1440px;
+    height: 718px;
+}
+
+.cards {
+    position: absolute;
+    display: flex;
+    margin-left: 100px;
+    margin-top: 180px;
+    gap: 50px;
+}
+
+.ironman, .thor, .black-widow {
+    width: 338px;
+    height: 308px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 2px 4px 1px rgba(0, 0, 0, 0.1);
+}
+
+.ironman-content, .thor-content, .black-widow-content{ 
+    gap: 20%;
+    margin: 30px;
+}
+
+.ironman h3, .thor h3, .black-widow h3 {
+    margin-bottom: 10px;
+    border-bottom: 2px solid red;
+}
+
+
+.ironman p, .thor p, .black-widow p {
+    margin-top: 40px;
+}
+
+
+
+.thor img, .black-widow img {
+    border-radius: 40px;
+}
+
+.cards p {
+    color: #737373;
+    min-width: 80%;
+    text-align: left;
+}
+
+.logo-section{
+    position: relative;
+    width: 1440px;
+    height: 600px;
+    color: white;
+    background-color: #000000;
+}
+
+.logos {
+    position: absolute;
+    margin-left: 18vw;
+    text-align: center;
+}
+
+.logos h2 {
+    font-weight: 400;
+    font-size: 48px;
+    
+}
+
+
+.logos h1 {
+    font-size: 64px;
+    font-weight: 700;
+}
+
+.footer {
+    width: 1440px;
+    height: 74px;
+    
+}
+
+.footer-info {
+    
+    display: flex;
+    color: white;
+    background-color: #323030;
+    gap: 60vw;
+}
+
+.footer-info p {
+    margin-left: 30px;
+    min-width: 30%;
+}
+
+.footer-info img {
+    
+    width: 236px;
+    height: 30%;
+    object-fit: cover;
+    
+}
